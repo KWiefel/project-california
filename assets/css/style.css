@@ -1,0 +1,365 @@
+@font-face {
+  font-family: "Inter";
+  src: url(./../fonts/Inter/Inter-VariableFont_slntwght.ttf);
+}
+@font-face {
+  font-family: "Work-Sans";
+  src: url(./../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: white;
+}
+
+h1 {
+  font-size: 6.125rem;
+  font-weight: 700;
+  line-height: 111%;
+  letter-spacing: -0.1563rem;
+  font-family: "Inter";
+}
+
+h2 {
+  font-size: 5.1875rem;
+  font-weight: 700;
+  line-height: 98%;
+  letter-spacing: -0.0813rem;
+  font-family: "Inter";
+}
+
+p {
+  font-size: 0.9875rem;
+  font-weight: 400;
+  line-height: 187%;
+  letter-spacing: -0.025rem;
+  font-family: "Work-Sans";
+}
+
+.subline {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: -0.0313rem;
+  font-family: "Work-Sans";
+}
+
+.logo-line1 {
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 80%;
+  text-transform: uppercase;
+  font-family: "Inter";
+}
+
+.logo-line2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 80%;
+  text-transform: uppercase;
+  font-family: "Inter";
+}
+
+.btn {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid white;
+  padding: 13px 33px;
+  text-align: center;
+  font-family: "Work-Sans";
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.subline {
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Work-Sans";
+}
+
+.counter {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: -0.025rem;
+  font-family: "Work-Sans";
+}
+
+.fat {
+  font-size: 1.8125rem;
+  font-weight: 700;
+  line-height: 113%;
+  letter-spacing: -0.025rem;
+  font-family: "Inter";
+}
+
+.artist {
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: -0.025rem;
+  font-family: "Work-Sans";
+}
+
+.subline-footer {
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: "Work-Sans";
+}
+
+.text-footer {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.875rem;
+  font-family: "Inter";
+}
+
+.slide-text {
+  font-size: 6.1719rem;
+  font-weight: 700;
+  line-height: 5.1433rem;
+  text-transform: uppercase;
+  font-family: "Inter";
+}
+
+.header {
+  background-color: black;
+  padding: 0 10%;
+  text-align: center;
+}
+.header div span {
+  writing-mode: vertical-lr;
+}
+.header .logo {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+.header .logo .subline {
+  padding-bottom: 1vh;
+}
+.header .logo .logo-line2 {
+  padding-bottom: 1.5vh;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25vh;
+  padding-bottom: 10vh;
+}
+
+.facts {
+  background-color: black;
+  padding: 0 10%;
+  padding-bottom: 10vh;
+}
+.facts header {
+  padding-top: 10vh;
+  max-width: 1200px;
+}
+.facts .facts-number {
+  background-image: url(./../img/map.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 10vh;
+}
+
+.middle {
+  position: relative;
+}
+.middle .text {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80vh;
+  padding: 30vh 0;
+}
+.middle .text div {
+  max-width: 400px;
+}
+.middle .text div p {
+  padding-top: 5px;
+}
+.middle img:nth-of-type(1) {
+  position: absolute;
+  top: -70px;
+  left: 70%;
+  width: 329px;
+}
+.middle img:nth-of-type(2) {
+  width: 275px;
+  position: absolute;
+  top: 130px;
+  left: 5%;
+}
+.middle img:nth-of-type(3) {
+  width: 275px;
+  position: absolute;
+  top: 450px;
+  right: 0;
+}
+.middle img:nth-of-type(4) {
+  width: 329px;
+  position: absolute;
+  top: 700px;
+  left: 25%;
+}
+.middle img:nth-of-type(5) {
+  width: 329px;
+  position: absolute;
+  top: 900px;
+  left: 70%;
+}
+.middle img:nth-of-type(6) {
+  width: 275px;
+  position: absolute;
+  bottom: 300px;
+  left: 0;
+}
+.middle img:nth-of-type(7) {
+  width: 275px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.goldenbear {
+  background-color: black;
+  padding: 0 10%;
+  height: 140vh;
+}
+.goldenbear header {
+  display: flex;
+  align-items: center;
+  gap: 10vw;
+}
+.goldenbear header div {
+  margin: 20vh 0;
+}
+.goldenbear header div:nth-of-type(1) {
+  width: 330px;
+}
+.goldenbear header div:nth-of-type(2) {
+  width: 550px;
+}
+.goldenbear header div .counter {
+  padding-bottom: 10px;
+}
+.goldenbear header div .artist {
+  padding-top: 15px;
+}
+.goldenbear .picture-effect {
+  position: relative;
+  z-index: 1;
+}
+.goldenbear .picture-effect img:nth-of-type(1) {
+  width: 730px;
+}
+.goldenbear .picture-effect img:nth-of-type(2) {
+  width: 366px;
+  position: absolute;
+  top: 150px;
+  left: 650px;
+}
+
+.poppybear {
+  background-color: white;
+  color: black;
+  padding: 0 10%;
+  height: 220vh;
+  position: relative;
+  overflow: hidden;
+}
+.poppybear img {
+  width: 450px;
+  position: absolute;
+  right: -120px;
+  top: -120px;
+  animation: spin 3s linear 0 infinite normal;
+}
+.poppybear header {
+  display: flex;
+  align-items: center;
+  gap: 10vw;
+}
+.poppybear header div {
+  margin-top: 60vh;
+  margin-bottom: 40vh;
+}
+.poppybear header div:nth-of-type(1) {
+  width: 330px;
+}
+.poppybear header div:nth-of-type(2) {
+  width: 550px;
+}
+.poppybear header div .counter {
+  padding-bottom: 10px;
+}
+.poppybear header div .artist {
+  padding-top: 15px;
+}
+.poppybear .picture-effect {
+  position: relative;
+}
+.poppybear .picture-effect img:nth-of-type(1) {
+  width: 730px;
+}
+.poppybear .picture-effect img:nth-of-type(2) {
+  width: 366px;
+  position: absolute;
+  top: 70px;
+  right: 550px;
+}
+
+footer {
+  background-color: black;
+  padding: 50px 10%;
+  padding-top: 100px;
+  position: relative;
+  overflow: hidden;
+}
+footer .subline-footer {
+  padding-bottom: 10px;
+}
+footer .text-footer {
+  width: 500px;
+}
+footer .btn {
+  display: inline-block;
+  margin-top: 5vh;
+}
+footer .footer-legend {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-legend img {
+  width: 15px;
+  padding-right: 5px;
+}
+footer .footer-legend .footer-logos img {
+  width: 50px;
+}
+footer .slide {
+  background-color: white;
+  position: absolute;
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+  top: 780px;
+}
+footer .slide .slide-text {
+  color: black;
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
