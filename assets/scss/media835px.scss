@@ -1,0 +1,88 @@
+@media screen and (max-width: 835px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    // font-size: 3rem;
+  }
+
+  .fat {
+    font-size: 2rem;
+  }
+
+  .text-footer {
+    font-size: 1rem;
+  }
+
+  .slide-text {
+    font-size: 3rem;
+    font-family: "Inter-Bold";
+  }
+
+  .middle {
+    .text {
+      gap: 40vh;
+    }
+
+    img {
+      transform: scale(1.6);
+
+      &:nth-of-type(2) {
+        top: 5%;
+      }
+
+      &:nth-of-type(3) {
+        display: none;
+      }
+
+      &:nth-of-type(4) {
+        top: 52%;
+        left: 25%;
+      }
+    }
+  }
+
+  .goldenbear {
+    padding-bottom: 130vw;
+    header {
+      display: block;
+
+      div {
+        &:nth-of-type(1) {
+          padding-top: 15%;
+        }
+        &:nth-of-type(2) {
+          width: 80ch;
+        }
+      }
+    }
+  }
+
+  .poppybear {
+    height: 170vw;
+    header {
+      display: block;
+
+      div {
+        &:nth-of-type(1) {
+        }
+
+        &:nth-of-type(2) {
+          width: 80ch;
+          margin-top: 0;
+        }
+      }
+    }
+    .circle {
+      right: -8%;
+      top: -5%;
+    }
+  }
+
+  footer {
+    .slide-text {
+      padding: 5px 0;
+    }
+  }
+}

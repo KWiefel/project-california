@@ -1,6 +1,10 @@
 @font-face {
   font-family: "Inter";
-  src: url(./../fonts/Inter/Inter-VariableFont_slntwght.ttf);
+  src: url(./../fonts/Inter/static/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(./../fonts/Inter/static/Inter-Bold.ttf);
 }
 @font-face {
   font-family: "Work-Sans";
@@ -21,7 +25,7 @@ h1 {
   font-weight: 700;
   line-height: 111%;
   letter-spacing: -0.1563rem;
-  font-family: "Inter";
+  font-family: "Work-Sans";
 }
 
 h2 {
@@ -29,7 +33,7 @@ h2 {
   font-weight: 700;
   line-height: 98%;
   letter-spacing: -0.0813rem;
-  font-family: "Inter";
+  font-family: "Inter-Bold";
 }
 
 p {
@@ -61,6 +65,8 @@ p {
   line-height: 80%;
   text-transform: uppercase;
   font-family: "Inter";
+  color: black;
+  text-shadow: 1px 0 1px white, -1px 0 1px white, 0 -1px 1px white, 0 1px 1px white;
 }
 
 .btn {
@@ -95,7 +101,7 @@ p {
   font-size: 1.8125rem;
   font-weight: 700;
   line-height: 113%;
-  letter-spacing: -0.025rem;
+  letter-spacing: 0.025rem;
   font-family: "Inter";
 }
 
@@ -160,15 +166,16 @@ p {
   padding-bottom: 10vh;
 }
 .facts header {
-  padding-top: 10vh;
-  max-width: 1200px;
+  padding-top: 10%;
+  max-width: 115ch;
 }
 .facts .facts-number {
   background-image: url(./../img/map.png);
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
-  padding-top: 10vh;
+  padding-top: 5%;
+  margin-right: -12%;
 }
 
 .middle {
@@ -183,50 +190,51 @@ p {
   gap: 80vh;
   padding: 30vh 0;
 }
-.middle .text div {
-  max-width: 400px;
+.middle .text div h2 {
+  width: 10ch;
 }
 .middle .text div p {
-  padding-top: 5px;
+  padding-top: 5%;
+  width: 40ch;
 }
 .middle img:nth-of-type(1) {
+  width: 18%;
   position: absolute;
-  top: -70px;
+  top: -3%;
   left: 70%;
-  width: 329px;
 }
 .middle img:nth-of-type(2) {
-  width: 275px;
+  width: 15%;
   position: absolute;
-  top: 130px;
+  top: 7%;
   left: 5%;
 }
 .middle img:nth-of-type(3) {
-  width: 275px;
+  width: 15%;
   position: absolute;
-  top: 450px;
+  top: 25%;
   right: 0;
 }
 .middle img:nth-of-type(4) {
-  width: 329px;
+  width: 18%;
   position: absolute;
-  top: 700px;
+  top: 38%;
   left: 25%;
 }
 .middle img:nth-of-type(5) {
-  width: 329px;
+  width: 18%;
   position: absolute;
-  top: 900px;
+  top: 48%;
   left: 70%;
 }
 .middle img:nth-of-type(6) {
-  width: 275px;
+  width: 15%;
   position: absolute;
-  bottom: 300px;
+  bottom: 18%;
   left: 0;
 }
 .middle img:nth-of-type(7) {
-  width: 275px;
+  width: 18%;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -235,21 +243,21 @@ p {
 .goldenbear {
   background-color: black;
   padding: 0 10%;
-  height: 140vh;
+  height: 80vw;
 }
 .goldenbear header {
   display: flex;
   align-items: center;
-  gap: 10vw;
+  justify-content: space-between;
 }
 .goldenbear header div {
-  margin: 20vh 0;
+  margin: 15% 0;
 }
 .goldenbear header div:nth-of-type(1) {
-  width: 330px;
+  width: 1ch;
 }
 .goldenbear header div:nth-of-type(2) {
-  width: 550px;
+  width: 60ch;
 }
 .goldenbear header div .counter {
   padding-bottom: 10px;
@@ -259,47 +267,60 @@ p {
 }
 .goldenbear .picture-effect {
   position: relative;
-  z-index: 1;
+  display: flex;
 }
 .goldenbear .picture-effect img:nth-of-type(1) {
-  width: 730px;
+  width: 55%;
+  z-index: 1;
 }
 .goldenbear .picture-effect img:nth-of-type(2) {
-  width: 366px;
+  width: 30%;
   position: absolute;
-  top: 150px;
-  left: 650px;
+  top: 20%;
+  left: 50%;
+  z-index: 2;
 }
 
 .poppybear {
   background-color: white;
   color: black;
   padding: 0 10%;
-  height: 220vh;
+  height: 110vw;
   position: relative;
   overflow: hidden;
 }
-.poppybear img {
-  width: 450px;
+.poppybear .circle {
+  width: 30%;
   position: absolute;
-  right: -120px;
-  top: -120px;
-  animation: spin 3s linear 0 infinite normal;
+  right: -10%;
+  top: -10%;
+  animation: spin 20s linear 0s infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.poppybear .circle img {
+  width: 100%;
 }
 .poppybear header {
   display: flex;
   align-items: center;
-  gap: 10vw;
+  justify-content: space-between;
 }
 .poppybear header div {
-  margin-top: 60vh;
-  margin-bottom: 40vh;
+  margin-top: 30%;
+  margin-bottom: 20%;
 }
 .poppybear header div:nth-of-type(1) {
-  width: 330px;
+  width: 1ch;
 }
 .poppybear header div:nth-of-type(2) {
-  width: 550px;
+  width: 60ch;
 }
 .poppybear header div .counter {
   padding-bottom: 10px;
@@ -308,22 +329,25 @@ p {
   padding-top: 15px;
 }
 .poppybear .picture-effect {
+  display: flex;
+  justify-content: flex-end;
   position: relative;
 }
 .poppybear .picture-effect img:nth-of-type(1) {
-  width: 730px;
+  width: 55%;
 }
 .poppybear .picture-effect img:nth-of-type(2) {
-  width: 366px;
+  width: 30%;
   position: absolute;
-  top: 70px;
-  right: 550px;
+  top: 20%;
+  right: 50%;
 }
 
 footer {
   background-color: black;
-  padding: 50px 10%;
-  padding-top: 100px;
+  padding-inline: 10%;
+  padding-top: 5%;
+  padding-bottom: 10px;
   position: relative;
   overflow: hidden;
 }
@@ -331,7 +355,7 @@ footer .subline-footer {
   padding-bottom: 10px;
 }
 footer .text-footer {
-  width: 500px;
+  max-width: 40ch;
 }
 footer .btn {
   display: inline-block;
@@ -353,13 +377,19 @@ footer .footer-legend .footer-logos img {
 footer .slide {
   background-color: white;
   position: absolute;
-  transform: rotate(45deg);
-  transform-origin: bottom right;
-  top: 780px;
+  transform: rotate(50deg);
+  top: 30%;
+  right: -20%;
 }
 footer .slide .slide-text {
   color: black;
   padding: 10px 0;
+  animation: move 5s linear 0s infinite;
+}
+@keyframes move {
+  50% {
+    transform: translate(200px, 0px);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
