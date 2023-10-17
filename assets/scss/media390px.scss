@@ -1,27 +1,35 @@
 @media screen and (max-width: 400px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 0;
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 
   .logo-line1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .logo-line2 {
     font-size: 2.8rem;
   }
 
+  .btn {
+    padding: 7px 15px;
+  }
+
+  .subline {
+    font-size: 0.5rem;
+  }
+
   .fat {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .text-footer {
@@ -29,9 +37,32 @@
     line-height: 1.5rem;
   }
 
+  .facts {
+    background-color: black;
+    padding-bottom: 10vh;
+    header {
+      padding-top: 10%;
+      max-width: 35ch;
+    }
+
+    .facts-number {
+      padding-top: 5%;
+      margin-right: 0;
+    }
+  }
+
+  .header {
+    .nav {
+      margin-top: 0;
+    }
+  }
+
   .middle {
+    .text {
+      gap: 30vh;
+    }
     img {
-      transform: scale(3);
+      transform: scale(2);
 
       &:nth-of-type(1) {
         left: 50%;
@@ -39,7 +70,8 @@
       }
 
       &:nth-of-type(2) {
-        left: 23%;
+        width: 20%;
+        left: 25%;
         top: 10%;
       }
 
@@ -50,7 +82,7 @@
       }
 
       &:nth-of-type(6) {
-        // display: none;
+        width: 20%;
         top: 85%;
         left: 30%;
       }
@@ -63,22 +95,21 @@
   }
 
   .goldenbear {
-    padding-bottom: 150vw;
     header {
       div {
         &:nth-of-type(2) {
-          width: 40ch;
+          width: 30ch;
         }
       }
     }
   }
 
   .poppybear {
-    height: 190vw;
+    height: 180vw;
     header {
       div {
         &:nth-of-type(2) {
-          width: 40ch;
+          width: 30ch;
         }
       }
     }
@@ -87,6 +118,10 @@
   footer {
     .slide {
       display: none;
+    }
+
+    .text-footer {
+      max-width: 20ch;
     }
   }
 }
