@@ -1,0 +1,64 @@
+@media screen and (max-width: 390px) {
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .logo-line1 {
+    font-size: 3rem;
+  }
+  .logo-line2 {
+    font-size: 2.8rem;
+  }
+  .fat {
+    font-size: 1rem;
+  }
+  .text-footer {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .middle img {
+    transform: scale(3);
+  }
+  .middle img:nth-of-type(1) {
+    left: 50%;
+    top: 5%;
+  }
+  .middle img:nth-of-type(2) {
+    left: 23%;
+    top: 10%;
+  }
+  .middle img:nth-of-type(5) {
+    top: 45%;
+    left: 55%;
+  }
+  .middle img:nth-of-type(6) {
+    top: 85%;
+    left: 30%;
+  }
+  .middle img:nth-of-type(7) {
+    top: 93%;
+  }
+  .goldenbear {
+    padding-bottom: 150vw;
+  }
+  .goldenbear header div:nth-of-type(2) {
+    width: 40ch;
+  }
+  .poppybear {
+    height: 190vw;
+  }
+  .poppybear header div:nth-of-type(2) {
+    width: 40ch;
+  }
+  footer .slide {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=media390px.css.map */

@@ -1,0 +1,92 @@
+@media screen and (max-width: 390px) {
+  h1 {
+    font-size: 2rem;
+    letter-spacing: 0;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .logo-line1 {
+    font-size: 3rem;
+  }
+
+  .logo-line2 {
+    font-size: 2.8rem;
+  }
+
+  .fat {
+    font-size: 1rem;
+  }
+
+  .text-footer {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .middle {
+    img {
+      transform: scale(3);
+
+      &:nth-of-type(1) {
+        left: 50%;
+        top: 5%;
+      }
+
+      &:nth-of-type(2) {
+        left: 23%;
+        top: 10%;
+      }
+
+      &:nth-of-type(5) {
+        // display: none;
+        top: 45%;
+        left: 55%;
+      }
+
+      &:nth-of-type(6) {
+        // display: none;
+        top: 85%;
+        left: 30%;
+      }
+
+      &:nth-of-type(7) {
+        // display: none;
+        top: 93%;
+      }
+    }
+  }
+
+  .goldenbear {
+    padding-bottom: 150vw;
+    header {
+      div {
+        &:nth-of-type(2) {
+          width: 40ch;
+        }
+      }
+    }
+  }
+
+  .poppybear {
+    height: 190vw;
+    header {
+      div {
+        &:nth-of-type(2) {
+          width: 40ch;
+        }
+      }
+    }
+  }
+
+  footer {
+    .slide {
+      display: none;
+    }
+  }
+}
